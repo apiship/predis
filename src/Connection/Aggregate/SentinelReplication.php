@@ -77,7 +77,7 @@ class SentinelReplication implements ReplicationInterface
     /**
      * @var float
      */
-    protected $sentinelTimeout = 0.100;
+    protected $sentinelTimeout = 1.000;
 
     /**
      * Max number of automatic retries of commands upon server failure.
